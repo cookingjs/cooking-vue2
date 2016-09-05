@@ -1,5 +1,5 @@
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
-var nextVersion = require('cooking').version
+var isNextWebpack = require('cooking/util/check').isNextWebpack
 
 module.exports = function (options) {
   if (nextVersion) {
@@ -22,7 +22,7 @@ module.exports = function (options) {
     }).join('!')
 
     if (options.extract) {
-      return nextVersion > 0
+      return isNextWebpack
         ? ExtractTextPlugin.extract({
           fallbackLoader: 'vue-style-loader',
           loader: sourceLoader
