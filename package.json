@@ -1,0 +1,27 @@
+{
+  "name": "cooking-vue2",
+  "version": "0.1.0",
+  "description": "A cooking plugin to extend vue 2 config.",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cookingjs/cooking-vue2.git"
+  },
+  "keywords": [
+    "cooking",
+    "vue",
+    "cooking-plugin"
+  ],
+  "author": "qingwei-li <qingwei.li@ele.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cookingjs/cooking-vue2/issues"
+  },
+  "homepage": "https://github.com/cookingjs/cooking-vue2#readme",
+  "dependencies": {
+    "vue-loader": "^9.4.2"
+  }
+}
