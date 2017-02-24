@@ -23,6 +23,6 @@
   "homepage": "https://github.com/cookingjs/cooking-vue2#readme",
   "dependencies": {
     "vue-loader": ">=9.4.2",
-    "vue-template-compiler": "*"
+    "vue-template-compiler": "^2 || beta"
   }
 }
