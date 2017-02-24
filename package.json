@@ -21,8 +21,10 @@
     "url": "https://github.com/cookingjs/cooking-vue2/issues"
   },
   "homepage": "https://github.com/cookingjs/cooking-vue2#readme",
-  "dependencies": {
-    "vue-loader": ">=9.4.2",
+  "peerDependencies": {
     "vue-template-compiler": "^2 || beta"
+  },
+  "dependencies": {
+    "vue-loader": ">=9.4.2"
   }
 }
