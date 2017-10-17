@@ -23,8 +23,8 @@ module.exports = function (options) {
     if (options.extract) {
       return isNextWebpack
         ? ExtractTextPlugin.extract({
-          fallbackLoader: 'vue-style-loader',
-          loader: sourceLoader
+          fallback: 'vue-style-loader',
+          use: sourceLoader
         })
         : ExtractTextPlugin.extract('vue-style-loader', sourceLoader)
     } else {
