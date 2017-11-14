@@ -24,6 +24,9 @@
   "peerDependencies": {
     "vue-template-compiler": "*"
   },
+  "devDependencies": {
+    "vue-template-compiler": "*"
+  },
   "dependencies": {
     "vue-loader": ">=9.4.2"
   }
